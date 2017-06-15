@@ -84,7 +84,7 @@ hr {
 /* Navigation */
 nav .navbar-toggle {margin: 13px 15px 13px 0;}
 nav a {
-	font-size: 20px;
+	font-size: 14px;
 	padding-bottom: 30px !important;
 	padding-top: 30px !important;
 	transition: all 0.3s ease !important;
@@ -120,7 +120,6 @@ nav.navbar.shrink a {
 }
 .navbar-custom .navbar-toggle {
 	color: #eee;
-	font-size: 18px;
 	border-radius: 2px;
 	padding: 0 4px;
 }
@@ -136,20 +135,20 @@ nav.navbar.shrink a {
 	color: #888888;
 }
 .navbar-custom .nav li a {
-	font-size: 14px;
+	font-size: 16px;
 	-webkit-transition: background .3s ease-in-out;
 	-moz-transition: background .3s ease-in-out;
 	transition: background .3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #2FAFAF;
+	color: #2CA5A5;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #DDDDDD;
+	color: #2CA5A5;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
@@ -158,7 +157,7 @@ nav.navbar.shrink a {
 	background-color: rgba(255,255,255,.3);
 }
 .navbar-custom .nav li.active a:hover {
-	color: #FFFFFF;
+	color: #2CA5A5;
 }
 
 .navbar-custom-sub {
