@@ -84,7 +84,7 @@ hr {
 /* Navigation */
 nav .navbar-toggle {margin: 13px 15px 13px 0;}
 nav a {
-	font-size: 14px;
+	font-size: 16px;
 	padding-bottom: 30px !important;
 	padding-top: 30px !important;
 	transition: all 0.3s ease !important;
@@ -135,7 +135,6 @@ nav.navbar.shrink a {
 	color: #888888;
 }
 .navbar-custom .nav li a {
-	font-size: 16px;
 	-webkit-transition: background .3s ease-in-out;
 	-moz-transition: background .3s ease-in-out;
 	transition: background .3s ease-in-out;
