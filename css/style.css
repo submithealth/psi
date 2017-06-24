@@ -215,16 +215,13 @@ nav a {
 	font-style: italic;
 	color: #777;
 }
-
 #intro li{
 	padding: 10px;
 	font-size: 16px;
 }
-
 #intro li, a{
 	color: #777;
 }
-
 #intro .intro-body p {
 	font-size: 20px;
 }
