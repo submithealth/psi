@@ -82,41 +82,20 @@ hr {
 }
 
 /* Navigation */
-nav .navbar-toggle {margin: 13px 15px 13px 0;}
-nav a {
-	font-size: 16px;
-	padding-bottom: 30px !important;
-	padding-top: 30px !important;
-	transition: all 0.3s ease !important;
-}
-nav.navbar.shrink .navbar-toggle {
+nav .navbar-toggle {
 	margin: 8px 15px 8px 0;
 	padding: 4px 5px;
 }
-nav.navbar.shrink .navbar-brand {
-	font-size: 20px;
-}
-nav.navbar.shrink a {
+nav a {
 	font-size: 14px;
 	padding-bottom: 15px !important;
 	padding-top: 15px !important;
 }
 .navbar-custom {
 	padding: 0;
-	background:#FFFFFF;
+	background:#f6f6f6;
 	border-bottom: 1px solid #e6e6e6;;
 	letter-spacing: 1px;
-}
-.navbar-custom .navbar-brand {
-	font-weight: bold;
-	font-size: 22px;
-}
-
-.navbar-custom .navbar-brand i.fa {
-	color: #;
-}
-.navbar-custom .navbar-brand:focus {
-	outline: 0;
 }
 .navbar-custom .navbar-toggle {
 	color: #eee;
@@ -160,21 +139,35 @@ nav.navbar.shrink a {
 }
 
 .navbar-custom-sub {
-	padding: 80px 0 0 0;
+	padding: 50px 0 0 0;
 	border-bottom: 0;
 	letter-spacing: 1px;
 	margin-bottom: 0px;
 	text-transform: uppercase;
-	font-size: 14px;
-	background: #f6f6f6;
+	font-size: 16px;
+	background: #ffffff;
 	color: #25b3b3;
 }
 
 .navbar-custom-sub li a{
 	color: #666;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
+
+.navbar-custom-sub .navbar-brand {
+	height: 70px;
+	font-weight: bold;
+	font-size: 24px;
+	padding: 25px;
+	text-transform: none;
+	color:#969696;
+}
+
+.navbar-custom-sub .navbar-brand:focus {
+	outline: 0;
+}
+
 
 @media only screen and (max-width:768px){
 	.navbar-custom .navbar-brand {
@@ -196,7 +189,7 @@ nav.navbar.shrink a {
 #intro {
 	display: table;
 	width: 100%;
-	max-height: 495px;
+	max-height: 510px;
 	height: auto;
 	padding: 100px 0 ;
 	color: #fff;
@@ -214,6 +207,13 @@ nav.navbar.shrink a {
 #intro .intro-body H1 {
 	font-size: 48px;
 	font-weight: 700;
+	text-transform: uppercase;
+}
+#intro .intro-body H3 {
+	font-size: 24px;
+	font-weight: 500;
+	font-style: italic;
+	color: #777;
 }
 #intro .intro-body p {
 	font-size: 20px;
@@ -316,6 +316,7 @@ nav.navbar.shrink a {
 	padding: 20px 10px;
 	background-color: #FFFFFF;
 	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.18);
+	margin: 20px 0px;
 }
 #services h3 {
 	font-size: 20px;
@@ -334,8 +335,11 @@ img.img-thumbnail.team-img {
 	width: 200px;
 	height: 200px;
 	border: 0;
-	border-radius: 0;
+	border-radius: 50%;
 	background-color: #f6f6f6;
+}
+#team .bio {
+	padding:10px 20px;
 }
 #team .thumbnail {
 	background: transparent;
