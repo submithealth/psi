@@ -193,7 +193,7 @@ nav a {
 	height: auto;
 	padding: 100px 0 ;
 	color: #fff;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(https://images.pexels.com/photos/159406/tulips-netherlands-flowers-bloom-159406.jpeg) no-repeat center center;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(https://images.pexels.com/photos/159406/tulips-netherlands-flowers-bloom-159406.jpeg) no-repeat center left;
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -214,6 +214,15 @@ nav a {
 	font-size: 24px;
 	font-weight: 500;
 	font-style: italic;
+	color: #777;
+}
+
+#intro li{
+	padding: 10px;
+	font-size: 16px;
+}
+
+#intro li, a{
 	color: #777;
 }
 
