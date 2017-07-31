@@ -2,9 +2,10 @@ body, html {
 	font-family: 'Roboto', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	color: #777;
+	color: #333;
 	width: 100% !important;
 	height: 100% !important;
+	font-size: 16px;
 }
 h1 {
 	font-weight: 700;
@@ -20,13 +21,13 @@ h2 {
 	color: #555;
 }
 h3 {
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 700;
 	color: #555;
 }
 h4 {
 	font-weight: 500;
-	color: #555;
+	color: #333333;
 }
 h5 {
 	text-transform: uppercase;
@@ -34,7 +35,7 @@ h5 {
 	line-height: 20px;
 }
 p {
-	font-size: 14px;
+	font-size: 16px;
 }
 a {
 	color: #2FAFAF;
@@ -87,7 +88,7 @@ nav .navbar-toggle {
 	padding: 4px 5px;
 }
 nav a {
-	font-size: 14px;
+	font-size: 16px;
 	padding-bottom: 15px !important;
 	padding-top: 15px !important;
 }
@@ -111,7 +112,7 @@ nav a {
 	color: #FFFFFF;
 }
 .navbar-custom a {
-	color: #888888;
+	color: #444444;
 }
 .navbar-custom .nav li a {
 	-webkit-transition: background .3s ease-in-out;
@@ -150,7 +151,7 @@ nav a {
 }
 
 .navbar-custom-sub li a{
-	color: #666;
+	color: #555555;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
@@ -161,7 +162,7 @@ nav a {
 	font-size: 24px;
 	padding: 25px;
 	text-transform: none;
-	color:#969696;
+	color:#666666;
 }
 
 .navbar-custom-sub .navbar-brand:focus {
@@ -213,14 +214,14 @@ nav a {
 	font-size: 24px;
 	font-weight: 500;
 	font-style: italic;
-	color: #777;
+	color: #555555;
 }
 #intro li{
 	padding: 10px;
 	font-size: 16px;
 }
 #intro li, a{
-	color: #777;
+	color: #555555;
 }
 #intro .intro-body p {
 	font-size: 20px;
@@ -272,13 +273,14 @@ nav a {
 	background: #F9F9F9;
 }
 #about H4 {
-	font-size: 20px;
+	font-size: 24px;
+	padding-bottom:6px;
 }
 #about li {
 	margin-bottom: 3px;
 	list-style: none;
 	padding: 0;
-	font-size: 13px;
+	font-size: 16px;
 }
 #about li:before {
 	content: "✓";
@@ -351,7 +353,7 @@ img.img-thumbnail.team-img {
 }
 #team .thumbnail .caption {
 	padding: 9px;
-	color: #777;
+	color: #444444;
 }
 /* Testimonials Section */
 #testimonials {
@@ -406,7 +408,7 @@ footer ul {
 	color: #2FAFAF;
 }
 #footer p {
-	font-size: 13px;
+	font-size: 16px;
 	margin-top: 10px;
 }
 
@@ -429,6 +431,16 @@ footer {
 
 footer p {
 	margin-bottom: 20px;
+}
+
+footer h4 {
+	font-size: 24px;
+	color: #444444;
+	padding-bottom: 18px;
+}
+
+footer li, a{
+	color: #444444;
 }
 
 .company-social {
