@@ -266,7 +266,6 @@ nav a {
 	margin-bottom: 30px;
 }
 
-
 /* About Section */
 #about {
 	padding: 80px 0;
@@ -280,7 +279,7 @@ nav a {
 	margin-bottom: 3px;
 	list-style: none;
 	padding: 0;
-	font-size: 16px;
+	font-size: 20px;
 }
 #about li:before {
 	content: "✓";
@@ -296,9 +295,7 @@ nav a {
 	font-size: 44px;
 	text-shadow: 0 0 1px #666;
 }
-#about img {
-	margin-top: 20px;
-}
+	
 #about p {
 	margin-top: 20px;
 	margin-bottom: 30px;
@@ -319,7 +316,7 @@ nav a {
 }
 
 #services .service {
-	padding: 20px 10px;
+	padding: 70px 10px;
 	background-color: #FFFFFF;
 	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.18);
 	margin: 20px 0px;
@@ -328,10 +325,16 @@ nav a {
 	font-size: 20px;
 	font-weight: 600;
 }
-#services i.fa {
+#services a {
+	color:#2FAFAF;
+}
+/*#services i.fa {
 	font-size: 36px;
 	transition: all 0.5s;
-}
+}*/
+
+
+
 /* Team Section */
 #team {
 	padding: 80px 0;
@@ -343,6 +346,9 @@ img.img-thumbnail.team-img {
 	border: 0;
 	border-radius: 50%;
 	background-color: #f6f6f6;
+}
+#team a {
+	color:#2FAFAF;
 }
 #team .bio {
 	padding:10px 20px;
@@ -390,6 +396,41 @@ img.img-thumbnail.team-img {
 	padding: 20px 0;
 	margin-top: 10px;
 }
+
+/* Locations Section */
+#locations {
+	padding: 80px 0;
+	background: #ECECEC;
+}
+#locations H4 {
+	font-size: 24px;
+	padding-bottom:6px;
+}
+#locations li {
+	margin-bottom: 10px;
+	list-style: none;
+	padding: 0;
+	font-size: 16px;
+}
+#locations li:before {
+	content: "✓";
+	font-weight: 600;
+	padding-right: 10px;
+	color: #2FAFAF;
+}
+#locations i.fa {
+	float: left;
+	display: block;
+	margin-right: 15px;
+	color: #fff;
+	font-size: 44px;
+	text-shadow: 0 0 1px #666;
+}	
+#locations p {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
 
 /* Footer Section*/
 footer ul {
