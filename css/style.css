@@ -274,12 +274,12 @@ nav a {
 #about H4 {
 	font-size: 24px;
 	padding-bottom:6px;
+	color: #555555;
 }
 #about li {
-	margin-bottom: 3px;
 	list-style: none;
 	padding: 0;
-	font-size: 20px;
+	font-size: 22px;
 }
 #about li:before {
 	content: "✓";
