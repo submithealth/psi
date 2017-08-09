@@ -190,11 +190,11 @@ nav a {
 #intro {
 	display: table;
 	width: 100%;
-	max-height: 510px;
+	max-height: 560px;
 	height: auto;
 	padding: 100px 0 ;
-	color: #fff;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(https://images.pexels.com/photos/159406/tulips-netherlands-flowers-bloom-159406.jpeg) no-repeat center left;
+	color: #ffffff;
+	background: linear-gradient(40deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.0)), url(../img/indy-skyline.jpg) no-repeat center left;
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -211,17 +211,22 @@ nav a {
 	text-transform: uppercase;
 }
 #intro .intro-body H3 {
-	font-size: 24px;
+	font-size: 32px;
 	font-weight: 500;
 	font-style: italic;
-	color: #555555;
+	font-weight: bold;
+	color: #FFFFFF;
 }
 #intro li{
 	padding: 10px;
-	font-size: 16px;
+	font-size: 20px;
+	color: #FFFFFF;
+	font-weight: bold;
 }
-#intro li, a{
-	color: #555555;
+#intro a{
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: bold;
 }
 #intro .intro-body p {
 	font-size: 20px;
@@ -363,7 +368,7 @@ img.img-thumbnail.team-img {
 }
 /* Testimonials Section */
 #testimonials {
-	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/testimonials-bg.jpg);
+	background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hold-ipad.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	color: #ddd;
