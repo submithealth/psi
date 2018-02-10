@@ -161,12 +161,15 @@ nav a {
 		padding-top: 15px !important;
 	}
 	nav .navbar-toggle {
-		margin: 8px 15px 8px 0;
+		margin: 8px 25px;
 	}
 	.navbar-custom .navbar-toggle {
-		padding: 4px 5px;
+		padding: 5px 8px;
 	}
 
+}
+.container-fluid{
+	padding-left: 25px;
 }
 
 
@@ -178,7 +181,7 @@ nav a {
 	height: auto;
 	padding: 100px 0 ;
 	color: #404d5f;
-	background: url(../img/header.jpg) no-repeat center left;
+	background: url(../img/header.jpg) no-repeat center left 45%;
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -240,6 +243,18 @@ nav a {
 		letter-spacing: 1px;
 		margin-bottom: 100px;
 		color: rgba(255,255,255,0.9);
+	}
+}
+@media(max-width:768px) {
+	#intro {
+		height: 60%;
+		padding: 0;
+	}
+	#intro .intro-body {
+		display: table-cell;
+		vertical-align: middle;
+		padding-top: 250px;
+		padding-bottom: 20px;
 	}
 }
 .btn-default {
