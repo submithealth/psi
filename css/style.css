@@ -8,17 +8,19 @@ body, html {
 	font-size: 16px;
 }
 a {
-	color: #2FAFAF;
+	color: #2ba7a1;
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #2CA5A5;
+	color: #26948f;
 }
 ul, ol {
 	list-style: none;
 }
 .btn {
 	border-radius: 0px;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 #preloader {
 	position: fixed;
@@ -83,7 +85,7 @@ nav a {
 	padding: 0 4px;
 }
 .navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
-	background-color: #2FAFAF;
+	background-color: #2ba7a1;
 	color: #FFFFFF;
 }
 .navbar-custom .navbar-brand .navbar-toggle:focus, .navbar-custom .navbar-brand .navbar-toggle:active {
@@ -101,13 +103,13 @@ nav a {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #2CA5A5;
+	color: #26948f;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #2CA5A5;
+	color: #26948f;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
@@ -116,7 +118,7 @@ nav a {
 	background-color: rgba(255,255,255,.3);
 }
 .navbar-custom .nav li.active a:hover {
-	color: #2CA5A5;
+	color: #26948f;
 }
 
 .navbar-custom-sub {
@@ -136,8 +138,7 @@ nav a {
 
 .navbar-custom-sub li a{
 	color: #003767;
-	padding-top: 33px;
-	padding-bottom: 33px;
+	padding: 33px 8px;
 }
 
 .navbar-custom-sub .navbar-brand {
@@ -170,6 +171,21 @@ nav a {
 }
 .container-fluid{
 	padding-left: 25px;
+}
+
+.navbar-custom-sub .dropdown:hover .dropdown-menu {
+	display: block;
+	margin-top: 0; // remove the gap so it doesn't close
+}
+
+.navbar-custom-sub .dropdown-menu {
+	margin-top: -1px !important;
+	background: #f9f9f9;
+	border-radius: 0px;
+}
+
+.navbar-custom-sub .dropdown-menu li a {
+	padding: 10px 20px;
 }
 
 
@@ -226,8 +242,8 @@ nav a {
 	font-size: 20px;
 }
 #intro .intro-body .brand-heading {
-	color: #2FAFAF;
-	text-shadow: 0 4px #2CA5A5;
+	color: #2ba7a1;
+	text-shadow: 0 4px #26948f;
 }
 #intro .intro-body .intro-text {
 	font-size: 18px;
@@ -259,7 +275,7 @@ nav a {
 }
 .btn-default {
 	color: #f6f6f6;
-	background: #2FAFAF;
+	background: #2ba7a1;
 	border: 0;
 	padding: 12px 24px;
 	margin: 0 8px;
@@ -268,7 +284,7 @@ nav a {
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
 	color: #f6f6f6;
-	background-color: #2CA5A5;
+	background-color: #26948f;
 }
 .section-title.center {
 	padding: 30px 0;
@@ -281,10 +297,11 @@ nav a {
 	text-transform: uppercase;
 }
 
+
 /* Services Section */
 #services {
 	padding: 80px 0;
-	background-color: #FFFFFF;
+	background: #F9F9F9;
 }
 
 @media (max-width:768px) {
@@ -300,13 +317,13 @@ nav a {
 	margin: 20px 0px;
 }
 
-#services .blue {
-	background-color: #345d8a;
+#services .gray {
+	background-color: #94AB9B;
 	color: #FFFFFF;
 }
 
 #services .teal {
-	background-color: #2FAFAF;
+	background-color: #40c3aa;
 	color: #FFFFFF;
 }
 
@@ -337,6 +354,56 @@ nav a {
 }
 
 
+/* About Section */
+#about {
+	padding: 80px 0;
+	background: #e4e7f0;
+}
+
+
+/* Doctor Section */
+#doctor {
+	padding: 80px 0;
+	background: #f9f9f9;
+}
+img.img-thumbnail.doctor-img {
+	width: 200px;
+	height: 200px;
+	border: 0;
+	background-color: #f6f6f6;
+}
+#doctor h3 {
+	margin-top: 0px;
+}
+#doctor a {
+	color:#2ba7a1;
+}
+#doctor .bio {
+	padding:0px 20px;
+}
+#doctor .thumbnail {
+	background: transparent;
+	border: 0;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+#doctor .thumbnail .caption {
+	padding: 9px;
+	color: #444444;
+}
+
+/* Dermatology Section */
+#dermatology {
+	padding: 80px 0;
+	background: #e4e7f0;
+}
+
+/* Cosmetic Section */
+#cosmetic {
+	padding: 80px 0;
+	background: #f9f9f9;
+}
+
 /* News Section */
 #news {
 	padding: 80px 0;
@@ -356,7 +423,7 @@ nav a {
 	color: inherit;
 }
 #news H4:hover {
-	color: #2CA5A5;
+	color: #26948f;
 }
 #news p {
 	margin: 0;
@@ -364,15 +431,24 @@ nav a {
 	font-size: 16px;
 	padding-bottom: 25px;
 }
-#news .btn {
-	text-transform: uppercase;
-	font-weight: bold;
+
+/* Careers Section */
+#careers {
+	padding: 80px 0;
+	background: #f9f9f9;
 }
+
+/* Patients Section */
+#patients {
+	padding: 80px 0;
+	background: #e4e7f0;
+}
+
 
 /* Appointment Section*/
 #appointment {
 	padding: 50px 0;
-	background-color: #2FAFAF;
+	background-color: #40c3aa;
 	color: #FFFFFF;
 }
 #appointment H3 {
@@ -436,7 +512,7 @@ footer .fa-inverse {
 	color: #999999;
 }
 #footer a:hover {
-	color: #2FAFAF;
+	color: #2ba7a1;
 }
 #footer p {
 	font-size: 16px;
