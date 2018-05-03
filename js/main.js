@@ -14,6 +14,13 @@ function main() {
 			$("#preloader").delay(500).fadeOut("slow").remove();      
 		
 		}) 
+
+		// initialize popovers
+		$(function () {
+
+			$('[data-toggle="popover"]').popover()
+		})
+
 		
 		// Page scroll
 		$('a.page-scroll').click(function() {
