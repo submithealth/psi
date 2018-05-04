@@ -397,6 +397,7 @@ nav a {
 #doctor .img-frame {
 	height: 247px;
 	overflow: hidden;
+	margin-bottom:20px;
 }
 
 img.img-thumbnail.doctor-img {
