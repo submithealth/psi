@@ -393,12 +393,18 @@ nav a {
 	padding: 80px 0;
 	background: #f9f9f9;
 }
+
+#doctor .img-frame {
+	height: 247px;
+	overflow: hidden;
+}
+
 img.img-thumbnail.doctor-img {
 	width: 200px;
-	height: 200px;
 	border: 0;
 	background-color: #f6f6f6;
 }
+
 #doctor h3 {
 	margin-top: 0px;
 }
